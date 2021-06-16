@@ -22,5 +22,5 @@ Some points to remember are that
   1. This module works on *MNIST* dataset only as per given by the challenge guideline. (Will try to upgrade this feature to support more datasets in fututre)
   2. The last parameter batch_norm will add batch normalisation layer after every 3 layers
   3. Although you can put any number in the first parameter (i.e number of layers) but be sensible with it as it can possibly crash your P.C. Suggested range would be 2-5
-  4. You have to put the parameters in the above given order only, otherwise it won't work one valid CMD command will be "python challenge_arun.py 4 128 relu adam 5 sparse_categorical_crossentropy 0"
+  4. You have to put the parameters in the above given order only, otherwise it won't work one valid CMD command will be "python train.py 4 128 relu adam 5 sparse_categorical_crossentropy 0"
   5. You can experiment with anything you want
